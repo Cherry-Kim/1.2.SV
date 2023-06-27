@@ -1,1 +1,2 @@
-# 1.2.SV
+#install
+https://github.com/dellytools/delly/archive/refs/tags/v1.1.6.tar.gz)https://github.com/dellytools/delly/archive/refs/tags/v1.1.6.tar.gz
