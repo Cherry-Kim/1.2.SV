@@ -1,8 +1,5 @@
 import string,sys,os,glob
-
-## Germline SV calling
-#os.system('/home/program/delly_v0.8.3_linux_x86_64bit call -x /home/program/delly/excludeTemplates/human.hg19.excl.tsv -o delly.bcf -g /home/DATA/EYE/hg19.fa RB1_RO_W40_N_dedup.bam')
-#os.system('bcftools view del.bcf > delly.vcf')
+#https://github.com/dellytools/delly 
 
 PATH='/home/hykim/SV/delly/'
 file_list=os.listdir(PATH)
