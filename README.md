@@ -14,7 +14,7 @@ cd build
 
 cmake ..
 
-sudo make install
+#sudo make install
 
 make test
 
