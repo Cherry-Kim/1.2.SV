@@ -18,4 +18,5 @@ cmake ..
 
 make test
 
+$configManta.py --bam your_sample.bam --referenceFasta reference.fa --runDir output_directory
 
