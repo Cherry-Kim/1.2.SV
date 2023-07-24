@@ -11,8 +11,7 @@ def STEP2_manta():
 def main():
     path, REFERENCE_GENOME = '/WES/2.bam/', 'REF/GRCh38_DNA/GRCh38.primary_assembly.genome.fa'
     file_list = os.listdir(path)
-    bam_list = [file for file in file_list if file.endswith('.sort.bam')]
-    bam_list.sort()
+    bam_list = sorted([file for file in file_list if file.endswith('.sort.bam')])
     STEP1_Configuration(REFERENCE_GENOME,bam_list,path)
     STEP2_manta()
 main()
